@@ -6,6 +6,9 @@ export your python path to accept the tools directory:
     export PYTHONPATH=/path/to/src:$PYHTONPATH
 
 usage: 
+For quick usage enter: python main_letter_spam.py --data_name letter
+
+*More Details:*
 main_letter_spam.py [-h] [--data_name {letter,spam}]
                            [--miss_rate MISS_RATE] [--batch_size BATCH_SIZE]
                            [--hint_rate HINT_RATE] [--alpha ALPHA]
