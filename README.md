@@ -6,7 +6,6 @@ export your python path to accept the tools directory:
     export PYTHONPATH=/path/to/src:$PYHTONPATH
 
 usage: 
-
 main_letter_spam.py [-h] [--data_name {letter,spam}]
                            [--miss_rate MISS_RATE] [--batch_size BATCH_SIZE]
                            [--hint_rate HINT_RATE] [--alpha ALPHA]
@@ -14,6 +13,7 @@ main_letter_spam.py [-h] [--data_name {letter,spam}]
 
 optional arguments:
   -h, --help            show this help message and exit
+
   --data_name {letter,spam}
 
   --miss_rate MISS_RATE     missing data probability
